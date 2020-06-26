@@ -13,11 +13,13 @@
     "lint:fix": "eslint --ext .js ./ --fix"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "node-sass": "^4.14.1",
     "nuxt": "^2.13.0",
     "sass-loader": "^8.0.2",
     "swiper": "^5.4.5",
-    "vue-awesome-swiper": "^4.1.1"
+    "vue-awesome-swiper": "^4.1.1",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
