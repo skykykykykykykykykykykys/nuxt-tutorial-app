@@ -31,7 +31,7 @@ export default {
   ** Global CSS
   */
   css: [
-    { src: './assets/scss/navigation.scss', lang: 'scss' }
+    { src: './assets/scss/main.scss', lang: 'scss' }
   ],
   /*
   ** Customize the progress bar color
