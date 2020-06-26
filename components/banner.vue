@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-swiper:mySwiper="swiperOption">
+    <div v-swiper:mySwiper="swiperOption" class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide" v-for="item in banner" v-bind:key="item.key">
           <img :src="item.src" alt="item.src">
@@ -40,12 +40,12 @@ export default {
           },
           // when window width is <= 480px
           480: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 8
           },
           // when window width is <= 800px
           800: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 8
           }
         },
