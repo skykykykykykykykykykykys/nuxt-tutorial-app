@@ -6,8 +6,8 @@ const createStore = () => {
       article: {}
     },
     getters: {
-      article (article) {
-        return article
+      article (state) {
+        return state.article
       }
     },
     mutations: {
